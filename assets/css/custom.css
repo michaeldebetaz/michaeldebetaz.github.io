@@ -1,0 +1,9 @@
+.dia-banner-section .dia-banner-content h1 {
+    font-size: 3.5rem;
+}
+
+@media (max-width: 400px) {
+    .dia-banner-section .dia-banner-content h1 {
+        font-size: 2.3rem;
+    }
+}

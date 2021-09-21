@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="shortcut icon" href="assets/img/fv.png" type="image/x-icon" />
     <link rel="icon" href="assets/img/fv.png" type="image/x-icon" />
+
+    <!-- CSS -->
     <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
     <link rel="stylesheet" href="assets/css/fontawesome-all.css" />
     <link rel="stylesheet" href="assets/css/animate.css" />
@@ -13,13 +15,28 @@
     <link rel="stylesheet" href="assets/css/odometer-theme-default.css" />
     <link rel="stylesheet" href="assets/css/owl.carousel.css" />
     <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="stylesheet" href="assets/css/dark-version.css" />
+    <link rel="stylesheet" href="assets/css/custom.css" />
+    
+    <!-- JS library -->
+    <script src="assets/js/jquery.js" defer></script>
+    <script src="assets/js/popper.min.js" defer></script>
+    <script src="assets/js/appear.js" defer></script>
+    <script src="assets/js/bootstrap.min.js" defer></script>
+    <script src="assets/js/wow.min.js" defer></script>
+    <script src="assets/js/jquery.fancybox.js" defer></script>
+    <script src="assets/js/tilt.jquery.min.js" defer></script>
+    <script src="assets/js/owl.js" defer></script>
+    <script src="assets/js/aos.js" defer></script>
+    <script src="assets/js/slick.js" defer></script>
+    <script src="assets/js/jquery.barfiller.js" defer></script>
+    <script src="assets/js/typer-new.js" defer></script>
+    <script src="assets/js/odometer.js" defer></script>
+    <script src="assets/js/jquery.mCustomScrollbar.concat.min.js" defer></script>
+    <script src="assets/js/parallax-scroll.js" defer></script>
+    <script src="assets/js/script.js" defer></script>
   </head>
-  <body
-    class="dia-home"
-    data-spy="scroll"
-    data-target=".dia-main-navigation"
-    data-offset="80"
-  >
+  <body class="dia-home dark-version">
     <!-- preloader - start -->
     <div id="preloader" class="dia-preloader"></div>
     <div class="up">
@@ -32,25 +49,23 @@
     <header id="dia-header" class="dia-main-header">
       <div class="container">
         <div class="dia-main-header-content clearfix">
-          <div class="dia-logo float-left">
-            <a href="#"
-              ><img src="assets/img/d-agency/logo/logo.png" alt=""
-            /></a>
+          <div class="dia-logo float-start">
+            <a href="#"><img src="assets/img//logo/logo.png" alt="" /></a>
           </div>
-          <div class="dia-main-menu-item float-right">
+          <div class="dia-main-menu-item float-end">
             <nav class="dia-main-navigation clearfix ul-li">
               <ul id="main-nav" class="navbar-nav text-capitalize clearfix">
-                <li><a class="nav-link" href="#dia-banner">Home</a></li>
-                <li><a class="nav-link" href="#dia-service">Service</a></li>
-                <li><a class="nav-link" href="#dia-about">About</a></li>
-                <li><a class="nav-link" href="#dia-portfolio">Portfolio</a></li>
-                <li><a class="nav-link" href="#dia-blog">Blog</a></li>
+                <li><a href="#">Accueil</a></li>
+                <li><a href="#dia-service">Services</a></li>
+                <li><a href="#dia-about">DataFame</a></li>
+                <li><a href="#dia-portfolio">Portfolio</a></li>
+                <li><a href="#dia-blog">Publications</a></li>
               </ul>
             </nav>
           </div>
         </div>
         <!-- /desktop menu -->
-        <div class="dia-mobile_menu relative-position">
+        <div class="dia-mobile_menu">
           <div class="dia-mobile_menu_button dia-open_mobile_menu">
             <i class="fas fa-bars"></i>
           </div>
@@ -61,9 +76,7 @@
                 <i class="far fa-times-circle"></i>
               </div>
               <div class="m-brand-logo text-center">
-                <a href="!#"
-                  ><img src="assets/img/d-agency/logo/logo.png" alt=""
-                /></a>
+                <a href="!#"><img src="assets/img/logo/logo.png" alt="" /></a>
               </div>
               <nav class="dia-mobile-main-navigation clearfix ul-li">
                 <ul id="m-main-nav" class="navbar-nav text-capitalize clearfix">
@@ -87,60 +100,59 @@
         ============================================= -->
     <section id="dia-banner" class="dia-banner-section position-relative">
       <div class="banner-side-img banner-img1 position-absolute">
-        <img src="assets/img/d-agency/banner/ns2.png" alt="" />
+        <img src="assets/img/banner/ns2.png" alt="" />
       </div>
       <div class="banner-side-img banner-img2 position-absolute">
-        <img src="assets/img/d-agency/banner/ns1.png" alt="" />
+        <img src="assets/img/banner/ns1.png" alt="Consultant qui soutient le développement de projets numériques" />
       </div>
       <div class="container">
         <div class="dia-banner-content dia-headline pera-content">
-          <span class="dia-banner-tag">We are SaaSio</span>
+          <span class="dia-banner-tag">#datascience #webdev #evaluation</span>
           <h1 class="cd-headline clip is-full-width">
-            We help to solve clients
+            Le numérique au service des</br>
             <span class="cd-words-wrapper">
-              <b class="is-visible">Problem.</b>
-              <b>Wants.</b>
-              <b>Issue.</b>
+              <b class="is-visible">organisations.</b>
+              <b>associations.</b>
+              <b>entreprises.</b>
             </span>
           </h1>
           <p>
-            Our Activate suite of business apps gives your Lorem ipsum dolor sit
-            amet, consectetur.
+            DataFame vous accompagne dans le développement et l'amélioration de vos projets à l'ère du numérique.
           </p>
           <div class="dia-banner-btn d-flex">
-            <div class="dia-play-btn text-center d-inline-block">
+            <!-- <div class="dia-play-btn text-center d-inline-block">
               <a
                 href="https://www.youtube.com/watch?v=kxPCFljwJws"
                 class="lightbox-image overlay-box"
                 ><i class="fas fa-play"></i
               ></a>
-            </div>
+            </div> -->
             <div class="dia-abt-btn text-center d-inline-block">
-              <a href="#">About Our Company</a>
+              <a href="#">Dites-m'en plus</a>
             </div>
           </div>
         </div>
       </div>
       <div class="banner-shape1 position-absolute">
-        <img src="assets/img/d-agency/shape/pls2.png" alt="" />
+        <img src="assets/img/shape/pls2.png" alt="" />
       </div>
       <div
         class="banner-shape2 position-absolute"
         data-parallax='{"y" : 100, "rotateY":500}'
       >
-        <img src="assets/img/d-agency/shape/shp1.png" alt="" />
+        <img src="assets/img/shape/shp1.png" alt="" />
       </div>
       <div
         class="banner-side-shape2 position-absolute"
         data-parallax='{"y" : -30}'
       >
-        <img src="assets/img/d-agency/shape/bsi2.png" alt="" />
+        <img src="assets/img/shape/bsi2.png" alt="" />
       </div>
       <div
         class="banner-side-shape1 position-absolute"
         data-parallax='{"y" : 30}'
       >
-        <img src="assets/img/d-agency/shape/bsi1.png" alt="" />
+        <img src="assets/img/shape/bsi1.png" alt="" />
       </div>
     </section>
     <!-- End of Banner section
@@ -154,16 +166,16 @@
           <div class="row">
             <div class="col-lg-6 col-md-12">
               <div class="dia-service-img position-relative">
-                <img src="assets/img/d-agency/service/s1.png" alt="" />
+                <img src="assets/img/service/s1.png" alt="" />
                 <div
                   class="dia-service-shape dia-service-shape1 position-absolute"
                 >
-                  <img src="assets/img/d-agency/service/s2.png" alt="" />
+                  <img src="assets/img/service/s2.png" alt="" />
                 </div>
                 <div
                   class="dia-service-shape dia-service-shape2 position-absolute"
                 >
-                  <img src="assets/img/d-agency/service/s3.png" alt="" />
+                  <img src="assets/img/service/s3.png" alt="" />
                 </div>
               </div>
             </div>
@@ -390,18 +402,18 @@
               data-wow-duration="1500ms"
             >
               <div class="dia-about-img position-relative">
-                <img src="assets/img/d-agency/about/ab1.png" alt="" />
+                <img src="assets/img/about/ab1.png" alt="" />
                 <div
                   class="ab-shape1 position-absolute"
                   data-parallax='{"x" : -30}'
                 >
-                  <img src="assets/img/d-agency/shape/as1.png" alt="" />
+                  <img src="assets/img/shape/as1.png" alt="" />
                 </div>
                 <div
                   class="ab-shape2 position-absolute"
                   data-parallax='{"x" : 30}'
                 >
-                  <img src="assets/img/d-agency/shape/as1.png" alt="" />
+                  <img src="assets/img/shape/as1.png" alt="" />
                 </div>
               </div>
             </div>
@@ -424,18 +436,18 @@
               data-wow-duration="1500ms"
             >
               <div class="dia-exp-img text-center position-relative">
-                <img src="assets/img/d-agency/about/ab2.png" alt="" />
+                <img src="assets/img/about/ab2.png" alt="" />
                 <div
                   class="ab-shape1 position-absolute"
                   data-parallax='{"x" : -30}'
                 >
-                  <img src="assets/img/d-agency/shape/as1.png" alt="" />
+                  <img src="assets/img/shape/as1.png" alt="" />
                 </div>
                 <div
                   class="ab-shape2 position-absolute"
                   data-parallax='{"x" : 30}'
                 >
-                  <img src="assets/img/d-agency/shape/as1.png" alt="" />
+                  <img src="assets/img/shape/as1.png" alt="" />
                 </div>
               </div>
             </div>
@@ -511,7 +523,7 @@
         >
           <div class="dia-portfolio-img-text">
             <div class="dia-portfolio-img">
-              <img src="assets/img/d-agency/portfolio/port1.jpg" alt="" />
+              <img src="assets/img/portfolio/port1.jpg" alt="" />
             </div>
             <div class="dia-portfolio-text dia-headline text-center">
               <h3><a href="#">Out Sourcing Philippines</a></h3>
@@ -520,7 +532,7 @@
           </div>
           <div class="dia-portfolio-img-text">
             <div class="dia-portfolio-img">
-              <img src="assets/img/d-agency/portfolio/port2.jpg" alt="" />
+              <img src="assets/img/portfolio/port2.jpg" alt="" />
             </div>
             <div class="dia-portfolio-text dia-headline text-center">
               <h3><a href="#">Out Sourcing Philippines</a></h3>
@@ -529,7 +541,7 @@
           </div>
           <div class="dia-portfolio-img-text">
             <div class="dia-portfolio-img">
-              <img src="assets/img/d-agency/portfolio/port3.jpg" alt="" />
+              <img src="assets/img/portfolio/port3.jpg" alt="" />
             </div>
             <div class="dia-portfolio-text dia-headline text-center">
               <h3><a href="#">Out Sourcing Philippines</a></h3>
@@ -538,7 +550,7 @@
           </div>
           <div class="dia-portfolio-img-text">
             <div class="dia-portfolio-img">
-              <img src="assets/img/d-agency/portfolio/port4.jpg" alt="" />
+              <img src="assets/img/portfolio/port4.jpg" alt="" />
             </div>
             <div class="dia-portfolio-text dia-headline text-center">
               <h3><a href="#">Out Sourcing Philippines</a></h3>
@@ -547,7 +559,7 @@
           </div>
           <div class="dia-portfolio-img-text">
             <div class="dia-portfolio-img">
-              <img src="assets/img/d-agency/portfolio/port5.jpg" alt="" />
+              <img src="assets/img/portfolio/port5.jpg" alt="" />
             </div>
             <div class="dia-portfolio-text dia-headline text-center">
               <h3><a href="#">Out Sourcing Philippines</a></h3>
@@ -556,7 +568,7 @@
           </div>
           <div class="dia-portfolio-img-text">
             <div class="dia-portfolio-img">
-              <img src="assets/img/d-agency/portfolio/port1.jpg" alt="" />
+              <img src="assets/img/portfolio/port1.jpg" alt="" />
             </div>
             <div class="dia-portfolio-text dia-headline text-center">
               <h3><a href="#">Out Sourcing Philippines</a></h3>
@@ -565,7 +577,7 @@
           </div>
           <div class="dia-portfolio-img-text">
             <div class="dia-portfolio-img">
-              <img src="assets/img/d-agency/portfolio/port2.jpg" alt="" />
+              <img src="assets/img/portfolio/port2.jpg" alt="" />
             </div>
             <div class="dia-portfolio-text dia-headline text-center">
               <h3><a href="#">Out Sourcing Philippines</a></h3>
@@ -608,12 +620,12 @@
           >
             <div class="dia-team-img position-relative">
               <div class="team-mem-img-ei text-center position-relative">
-                <img src="assets/img/d-agency/team/tm1.png" alt="" />
+                <img src="assets/img/team/tm1.png" alt="" />
                 <span class="mshape-bg shape-bg1"
-                  ><img src="assets/img/d-agency/team/msbg1.png" alt=""
+                  ><img src="assets/img/team/msbg1.png" alt=""
                 /></span>
                 <span class="mshape-bg shape-bg2"
-                  ><img src="assets/img/d-agency/team/msbg2.png" alt=""
+                  ><img src="assets/img/team/msbg2.png" alt=""
                 /></span>
               </div>
               <div class="dia-team-social">
@@ -635,12 +647,12 @@
           >
             <div class="dia-team-img position-relative">
               <div class="team-mem-img-ei text-center position-relative">
-                <img src="assets/img/d-agency/team/tm2.png" alt="" />
+                <img src="assets/img/team/tm2.png" alt="" />
                 <span class="mshape-bg shape-bg1"
-                  ><img src="assets/img/d-agency/team/msbg1.png" alt=""
+                  ><img src="assets/img/team/msbg1.png" alt=""
                 /></span>
                 <span class="mshape-bg shape-bg2"
-                  ><img src="assets/img/d-agency/team/msbg2.png" alt=""
+                  ><img src="assets/img/team/msbg2.png" alt=""
                 /></span>
               </div>
               <div class="dia-team-social">
@@ -662,12 +674,12 @@
           >
             <div class="dia-team-img position-relative">
               <div class="team-mem-img-ei text-center position-relative">
-                <img src="assets/img/d-agency/team/tm3.png" alt="" />
+                <img src="assets/img/team/tm3.png" alt="" />
                 <span class="mshape-bg shape-bg1"
-                  ><img src="assets/img/d-agency/team/msbg1.png" alt=""
+                  ><img src="assets/img/team/msbg1.png" alt=""
                 /></span>
                 <span class="mshape-bg shape-bg2"
-                  ><img src="assets/img/d-agency/team/msbg2.png" alt=""
+                  ><img src="assets/img/team/msbg2.png" alt=""
                 /></span>
               </div>
               <div class="dia-team-social">
@@ -685,12 +697,12 @@
           <div class="dia-team-pic-text">
             <div class="dia-team-img position-relative">
               <div class="team-mem-img-ei text-center position-relative">
-                <img src="assets/img/d-agency/team/tm1.png" alt="" />
+                <img src="assets/img/team/tm1.png" alt="" />
                 <span class="mshape-bg shape-bg1"
-                  ><img src="assets/img/d-agency/team/msbg1.png" alt=""
+                  ><img src="assets/img/team/msbg1.png" alt=""
                 /></span>
                 <span class="mshape-bg shape-bg2"
-                  ><img src="assets/img/d-agency/team/msbg2.png" alt=""
+                  ><img src="assets/img/team/msbg2.png" alt=""
                 /></span>
               </div>
               <div class="dia-team-social">
@@ -708,12 +720,12 @@
           <div class="dia-team-pic-text">
             <div class="dia-team-img position-relative">
               <div class="team-mem-img-ei text-center position-relative">
-                <img src="assets/img/d-agency/team/tm2.png" alt="" />
+                <img src="assets/img/team/tm2.png" alt="" />
                 <span class="mshape-bg shape-bg1"
-                  ><img src="assets/img/d-agency/team/msbg1.png" alt=""
+                  ><img src="assets/img/team/msbg1.png" alt=""
                 /></span>
                 <span class="mshape-bg shape-bg2"
-                  ><img src="assets/img/d-agency/team/msbg2.png" alt=""
+                  ><img src="assets/img/team/msbg2.png" alt=""
                 /></span>
               </div>
               <div class="dia-team-social">
@@ -731,12 +743,12 @@
           <div class="dia-team-pic-text">
             <div class="dia-team-img position-relative">
               <div class="team-mem-img-ei text-center position-relative">
-                <img src="assets/img/d-agency/team/tm3.png" alt="" />
+                <img src="assets/img/team/tm3.png" alt="" />
                 <span class="mshape-bg shape-bg1"
-                  ><img src="assets/img/d-agency/team/msbg1.png" alt=""
+                  ><img src="assets/img/team/msbg1.png" alt=""
                 /></span>
                 <span class="mshape-bg shape-bg2"
-                  ><img src="assets/img/d-agency/team/msbg2.png" alt=""
+                  ><img src="assets/img/team/msbg2.png" alt=""
                 /></span>
               </div>
               <div class="dia-team-social">
@@ -764,7 +776,7 @@
       class="dia-testimonial-section position-relative"
     >
       <div class="tst-side-shape position-absolute" data-parallax='{"y" : 50}'>
-        <img src="assets/img/d-agency/shape/tsts1.png" alt="" />
+        <img src="assets/img/shape/tsts1.png" alt="" />
       </div>
       <div class="container">
         <div class="dia-section-title text-center text-capitalize dia-headline">
@@ -777,14 +789,14 @@
             data-wow-delay="300ms"
             data-wow-duration="1500ms"
           >
-            <img src="assets/img/d-agency/shape/tbg1.png" alt="" />
+            <img src="assets/img/shape/tbg1.png" alt="" />
           </div>
           <div
             class="test-shape2 position-absolute wow fadeFromLeft"
             data-wow-delay="300ms"
             data-wow-duration="1500ms"
           >
-            <img src="assets/img/d-agency/shape/tbg2.png" alt="" />
+            <img src="assets/img/shape/tbg2.png" alt="" />
           </div>
           <div
             id="dia-testimonial_slide"
@@ -798,13 +810,13 @@
                   data-slide-to="0"
                   class="active"
                 >
-                  <img src="assets/img/d-agency/testimonial/tst1.png" alt="" />
+                  <img src="assets/img/testimonial/tst1.png" alt="" />
                 </li>
                 <li data-target="#dia-testimonial_slide" data-slide-to="1">
-                  <img src="assets/img/d-agency/testimonial/tst2.png" alt="" />
+                  <img src="assets/img/testimonial/tst2.png" alt="" />
                 </li>
                 <li data-target="#dia-testimonial_slide" data-slide-to="2">
-                  <img src="assets/img/d-agency/testimonial/tst3.png" alt="" />
+                  <img src="assets/img/testimonial/tst3.png" alt="" />
                 </li>
               </ol>
             </div>
@@ -972,7 +984,7 @@
             >
               <div class="dia-blog-img-text">
                 <div class="dia-blog-img">
-                  <img src="assets/img/d-agency/blog/b1.jpg" alt="" />
+                  <img src="assets/img/blog/b1.jpg" alt="" />
                 </div>
                 <div class="dia-blog-text">
                   <span class="dia-blog-tag"
@@ -987,7 +999,7 @@
                 <div class="dia-blog-meta">
                   <div class="dia-author-area d-inline-block">
                     <div class="dia-athur-img float-left">
-                      <img src="assets/img/d-agency/blog/ba1.jpg" alt="" />
+                      <img src="assets/img/blog/ba1.jpg" alt="" />
                     </div>
                     <div class="dia-author-name">
                       <span>Posted By <a href="#">Rinnah</a></span>
@@ -1006,7 +1018,7 @@
             >
               <div class="dia-blog-img-text">
                 <div class="dia-blog-img">
-                  <img src="assets/img/d-agency/blog/b2.jpg" alt="" />
+                  <img src="assets/img/blog/b2.jpg" alt="" />
                 </div>
                 <div class="dia-blog-text">
                   <span class="dia-blog-tag"
@@ -1021,7 +1033,7 @@
                 <div class="dia-blog-meta">
                   <div class="dia-author-area d-inline-block">
                     <div class="dia-athur-img float-left">
-                      <img src="assets/img/d-agency/blog/ba1.jpg" alt="" />
+                      <img src="assets/img/blog/ba1.jpg" alt="" />
                     </div>
                     <div class="dia-author-name">
                       <span>Posted By <a href="#">Rinnah</a></span>
@@ -1040,7 +1052,7 @@
             >
               <div class="dia-blog-img-text">
                 <div class="dia-blog-img">
-                  <img src="assets/img/d-agency/blog/b3.jpg" alt="" />
+                  <img src="assets/img/blog/b3.jpg" alt="" />
                 </div>
                 <div class="dia-blog-text">
                   <span class="dia-blog-tag"
@@ -1055,7 +1067,7 @@
                 <div class="dia-blog-meta">
                   <div class="dia-author-area d-inline-block">
                     <div class="dia-athur-img float-left">
-                      <img src="assets/img/d-agency/blog/ba1.jpg" alt="" />
+                      <img src="assets/img/blog/ba1.jpg" alt="" />
                     </div>
                     <div class="dia-author-name">
                       <span>Posted By <a href="#">Rinnah</a></span>
@@ -1074,53 +1086,53 @@
     <!-- End of Blog section
         ============================================= -->
 
-    <!-- Start of newslatter section
+    <!-- Start of newsletter section
         ============================================= -->
     <section
-      id="dia-newslatter"
-      class="dia-newslatter-section position-relative"
+      id="dia-newsletter"
+      class="dia-newsletter-section position-relative"
     >
       <div
-        class="newslatter-shape position-absolute n-shape1"
+        class="newsletter-shape position-absolute n-shape1"
         data-parallax='{"x" : 30}'
       >
-        <img src="assets/img/d-agency/newslatter/nv1.png" alt="" />
+        <img src="assets/img/newsletter/nv1.png" alt="" />
       </div>
       <div
-        class="newslatter-shape position-absolute n-shape2"
+        class="newsletter-shape position-absolute n-shape2"
         data-parallax='{"x" : -30}'
       >
-        <img src="assets/img/d-agency/newslatter/nv2.png" alt="" />
+        <img src="assets/img/newsletter/nv2.png" alt="" />
       </div>
       <div
-        class="newslatter-shape position-absolute n-shape3"
+        class="newsletter-shape position-absolute n-shape3"
         data-parallax='{"x" : -30}'
       >
-        <img src="assets/img/d-agency/newslatter/nv3.png" alt="" />
+        <img src="assets/img/newsletter/nv3.png" alt="" />
       </div>
       <div
-        class="newslatter-shape position-absolute n-shape4"
+        class="newsletter-shape position-absolute n-shape4"
         data-parallax='{"y" : 30}'
       >
-        <img src="assets/img/d-agency/newslatter/nv4.png" alt="" />
+        <img src="assets/img/newsletter/nv4.png" alt="" />
       </div>
       <div
-        class="newslatter-shape position-absolute n-shape5"
+        class="newsletter-shape position-absolute n-shape5"
         data-parallax='{"y" : 30}'
       >
-        <img src="assets/img/d-agency/newslatter/nv5.png" alt="" />
+        <img src="assets/img/newsletter/nv5.png" alt="" />
       </div>
       <div
-        class="newslatter-shape position-absolute n-shape6"
+        class="newsletter-shape position-absolute n-shape6"
         data-parallax='{"x" : -30}'
       >
-        <img src="assets/img/d-agency/newslatter/nv6.png" alt="" />
+        <img src="assets/img/newsletter/nv6.png" alt="" />
       </div>
       <div class="container">
-        <div class="dia-newslatter-content">
+        <div class="dia-newsletter-content">
           <div class="row">
             <div class="col-lg-6">
-              <div class="dia-newslatter-text dia-headline pera-content">
+              <div class="dia-newsletter-text dia-headline pera-content">
                 <h3>Like our service? Subscribe us</h3>
                 <p>
                   As a app web crawler expert, I help organizations adjust to
@@ -1129,7 +1141,7 @@
               </div>
             </div>
             <div class="col-lg-6">
-              <div class="dia-newslatter-form relative-position">
+              <div class="dia-newsletter-form relative-position">
                 <form action="#">
                   <input
                     name="email"
@@ -1141,7 +1153,7 @@
                       Subscribe
                     </button>
                   </div>
-                  <div class="dia-newslatter-checkbox">
+                  <div class="dia-newsletter-checkbox">
                     <input name="#" type="checkbox" value="#" />
                     <label>Don’t provide any promotional message.</label>
                   </div>
@@ -1152,7 +1164,7 @@
         </div>
       </div>
     </section>
-    <!-- End of newslatter section
+    <!-- End of newsletter section
         ============================================= -->
 
     <!-- Start of Footer  section
@@ -1163,11 +1175,11 @@
           <div class="col-lg-4">
             <div class="dia-footer-widget pera-content dia-headline clearfix">
               <div class="dia-footer-logo">
-                <img src="assets/img/d-agency/logo/f-logo.png" alt="" />
+                <img src="assets/img/logo/logo.png" alt="" />
               </div>
               <p>Lorem Ipsum is simply dummy text of the printing and type.</p>
               <div class="dia-payment-mathod">
-                <img src="assets/img/d-agency/logo/paypal.png" alt="" />
+                <img src="assets/img/logo/paypal.png" alt="" />
               </div>
             </div>
           </div>
@@ -1202,12 +1214,8 @@
                 <span>Melbourne, Australia</span>
               </h4>
               <div class="download-btn">
-                <a href="#"
-                  ><img src="assets/img/d-agency/logo/app1.png" alt=""
-                /></a>
-                <a href="#"
-                  ><img src="assets/img/d-agency/logo/gp1.png" alt=""
-                /></a>
+                <a href="#"><img src="assets/img/logo/app1.png" alt="" /></a>
+                <a href="#"><img src="assets/img/logo/gp1.png" alt="" /></a>
               </div>
               <div class="dia-footer-social">
                 <a href="#"><i class="fab fa-facebook-f"></i></a>
@@ -1240,28 +1248,11 @@
         </div>
       </div>
       <div class="dia-footer-shape3 position-absolute">
-        <img src="assets/img/d-agency/shape/diamap.png" alt="" />
+        <img src="assets/img/shape/diamap.png" alt="" />
       </div>
     </section>
     <!-- End of Footer  section
         ============================================= -->
 
-    <!-- JS library -->
-    <script src="assets/js/jquery.js"></script>
-    <script src="assets/js/popper.min.js"></script>
-    <script src="assets/js/appear.js"></script>
-    <script src="assets/js/bootstrap.min.js"></script>
-    <script src="assets/js/wow.min.js"></script>
-    <script src="assets/js/jquery.fancybox.js"></script>
-    <script src="assets/js/tilt.jquery.min.js"></script>
-    <script src="assets/js/owl.js"></script>
-    <script src="assets/js/aos.js"></script>
-    <script src="assets/js/slick.js"></script>
-    <script src="assets/js/jquery.barfiller.js"></script>
-    <script src="assets/js/typer-new.js"></script>
-    <script src="assets/js/odometer.js"></script>
-    <script src="assets/js/jquery.mCustomScrollbar.concat.min.js"></script>
-    <script src="assets/js/parallax-scroll.js"></script>
-    <script src="assets/js/script.js"></script>
   </body>
 </html>

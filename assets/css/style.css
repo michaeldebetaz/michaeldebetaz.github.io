@@ -2326,61 +2326,61 @@ Sticky Menu
 }
 
 /*---------------------------------------------------- */
-/*newslatter  area*/
+/*newsletter  area*/
 /*----------------------------------------------------*/
-.ei-newslatter-section {
+.ei-newsletter-section {
   overflow: visible;
 }
 
-.ei-newslatter-section .ei-newslatter-mockup {
+.ei-newsletter-section .ei-newsletter-mockup {
   position: absolute;
   top: -35%;
   right: 18%;
 }
 
-.ei-newslatter-section .ei-newslatter-box {
+.ei-newsletter-section .ei-newsletter-box {
   overflow: hidden;
   padding: 80px 0px 85px;
   background: linear-gradient(-90deg, #ff00a2 0%, #750cf8 50%, #4ce7f3 100%);
 }
 
-.ei-newslatter-section .ei-newslatter-box .ei-news-vector1 {
+.ei-newsletter-section .ei-newsletter-box .ei-news-vector1 {
   top: -40px;
   left: 250px;
   animation: 3s ease 0s infinite alternate none running scale;
 }
 
-.ei-newslatter-section .ei-newslatter-box .ei-news-vector2 {
+.ei-newsletter-section .ei-newsletter-box .ei-news-vector2 {
   top: -30px;
   right: -70px;
   animation: 2s ease 0s infinite alternate none running scale;
 }
 
-.ei-newslatter-section .ei-newslatter-box .ei-news-vector3 {
+.ei-newsletter-section .ei-newsletter-box .ei-news-vector3 {
   left: -75px;
   bottom: -235px;
 }
 
-.ei-newslatter-section .ei-newslatter-contnet {
+.ei-newsletter-section .ei-newsletter-contnet {
   max-width: 650px;
   margin-left: 130px;
 }
 
-.ei-newslatter-section .ei-newslatter-contnet h3 {
+.ei-newsletter-section .ei-newsletter-contnet h3 {
   color: #fff;
   font-size: 26px;
   font-weight: 700;
 }
 
-.ei-newslatter-section .ei-newslatter-contnet h3 span {
+.ei-newsletter-section .ei-newsletter-contnet h3 span {
   font-weight: 100;
 }
 
-.ei-newslatter-section .ei-newslatter-contnet .ei-newslatter-form {
+.ei-newsletter-section .ei-newsletter-contnet .ei-newsletter-form {
   margin-top: 20px;
 }
 
-.ei-newslatter-section .ei-newslatter-contnet .ei-newslatter-form form input {
+.ei-newsletter-section .ei-newsletter-contnet .ei-newsletter-form form input {
   width: 100%;
   border: none;
   height: 72px;
@@ -2389,12 +2389,12 @@ Sticky Menu
   margin-bottom: 15px;
 }
 
-.ei-newslatter-section .ei-newslatter-contnet .ei-newslatter-form form .nws-button {
+.ei-newsletter-section .ei-newsletter-contnet .ei-newsletter-form form .nws-button {
   top: 12px;
   right: 12px;
 }
 
-.ei-newslatter-section .ei-newslatter-contnet .ei-newslatter-form form .nws-button button {
+.ei-newsletter-section .ei-newsletter-contnet .ei-newsletter-form form .nws-button button {
   height: 48px;
   width: 162px;
   border: none;
@@ -2405,7 +2405,7 @@ Sticky Menu
   background-image: linear-gradient(90deg, #ff03d0 0%, #4599fb 53%, #70fcff 99%);
 }
 
-.ei-newslatter-section .ei-newslatter-contnet .ei-newslatter-form form p {
+.ei-newsletter-section .ei-newsletter-contnet .ei-newsletter-form form p {
   color: #fff;
   font-size: 14px;
   margin-bottom: 0;
@@ -2803,7 +2803,7 @@ Sticky Menu
     left: 0;
   }
 
-  .ei-newslatter-section .ei-newslatter-mockup {
+  .ei-newsletter-section .ei-newsletter-mockup {
     right: 5%;
   }
 
@@ -2870,7 +2870,7 @@ Sticky Menu
     text-align: center;
     margin-top: 20px;
   }
-  .ei-newslatter-section .ei-newslatter-mockup {
+  .ei-newsletter-section .ei-newsletter-mockup {
     display: none;
   }
   .ei-footer-widget .download-btn a {
@@ -2997,7 +2997,7 @@ Sticky Menu
     max-width: 570px;
   }
 
-  .ei-newslatter-section .ei-newslatter-box .ei-news-vector2 {
+  .ei-newsletter-section .ei-newsletter-box .ei-news-vector2 {
     display: none;
   }
 
@@ -3085,7 +3085,7 @@ Sticky Menu
     overflow: hidden;
   }
 
-  .ei-newslatter-section .ei-newslatter-contnet {
+  .ei-newsletter-section .ei-newsletter-contnet {
     margin-left: 0px;
   }
 }
@@ -3347,12 +3347,12 @@ Sticky Menu
     display: none;
   }
 
-  .ei-newslatter-section .ei-newslatter-contnet .ei-newslatter-form form .nws-button button {
+  .ei-newsletter-section .ei-newsletter-contnet .ei-newsletter-form form .nws-button button {
     width: 150px;
     margin: 0 auto;
   }
 
-  .ei-newslatter-section .ei-newslatter-contnet .ei-newslatter-form form .nws-button {
+  .ei-newsletter-section .ei-newsletter-contnet .ei-newsletter-form form .nws-button {
     position: static !important;
     text-align: center;
     margin-bottom: 20px;
@@ -7717,7 +7717,7 @@ Sticky Menu
 /*---------------------------------------------------- */
 /*testimonial area*/
 /*----------------------------------------------------*/
-.newslatter_content {
+.newsletter_content {
   left: 0;
   left: 0;
   right: 0;
@@ -7734,7 +7734,7 @@ Sticky Menu
   background-image: linear-gradient(-115deg, #0478e9 0%, #20fdee 100%);
 }
 
-.newslatter_content:after {
+.newsletter_content:after {
   content: "";
   position: absolute;
   height: 300px;
@@ -7745,31 +7745,31 @@ Sticky Menu
   border: 30px solid #3f91e0;
 }
 
-.newslatter_content .newslatter_title {
+.newsletter_content .newsletter_title {
   margin: 0 auto;
   max-width: 380px;
   padding-bottom: 45px;
 }
 
-.newslatter_content .newslatter_title h2 {
+.newsletter_content .newsletter_title h2 {
   color: #fff;
   font-size: 36px;
   font-weight: 700;
   padding-bottom: 20px;
 }
 
-.newslatter_content .newslatter_title p {
+.newsletter_content .newsletter_title p {
   color: #fff;
   line-height: 1.75;
 }
 
-.newslatter_content .newslatter-form {
+.newsletter_content .newsletter-form {
   margin: 0 auto;
   max-width: 650px;
   padding-left: 30px;
 }
 
-.newslatter_content .newslatter-form input {
+.newsletter_content .newsletter-form input {
   width: 100%;
   height: 65px;
   border: none;
@@ -7778,13 +7778,13 @@ Sticky Menu
   box-shadow: 0px 6px 40px 0px rgba(5, 41, 140, 0.25);
 }
 
-.newslatter_content .newslatter-form .nws-button {
+.newsletter_content .newsletter-form .nws-button {
   position: absolute;
   top: 8px;
   right: 8px;
 }
 
-.newslatter_content .newslatter-form .nws-button button {
+.newsletter_content .newsletter-form .nws-button button {
   height: 50px;
   width: 130px;
   border: none;
@@ -7796,17 +7796,17 @@ Sticky Menu
   background-image: linear-gradient(-38deg, #0478e9 0%, #20fdee 100%);
 }
 
-.newslatter_content .newslatter-form .nws-button button:hover {
+.newsletter_content .newsletter-form .nws-button button:hover {
   background-image: linear-gradient(-38deg, #20fdee 0%, #0478e9 100%);
 }
 
-.newslatter_content .img_bg {
+.newsletter_content .img_bg {
   top: 15px;
   position: absolute;
   left: 15px;
 }
 
-.newslatter_content .subs_icon {
+.newsletter_content .subs_icon {
   position: absolute;
   left: 0px;
   top: 50px;
@@ -7818,7 +7818,7 @@ Sticky Menu
   margin: 0 auto;
 }
 
-.newslatter_content .subs_icon .subs_iconitem-1 {
+.newsletter_content .subs_icon .subs_iconitem-1 {
   width: 100%;
   height: 46px;
   background-repeat: no-repeat;
@@ -7828,7 +7828,7 @@ Sticky Menu
   -webkit-animation: slide 60s linear infinite;
 }
 
-.newslatter_content .subs_icon .subs_iconitem-2 {
+.newsletter_content .subs_icon .subs_iconitem-2 {
   width: 100%;
   height: 46px;
   background-repeat: no-repeat;
@@ -7838,7 +7838,7 @@ Sticky Menu
   -webkit-animation: slide 50s linear infinite;
 }
 
-.newslatter_content .subs_icon .subs_iconitem-3 {
+.newsletter_content .subs_icon .subs_iconitem-3 {
   width: 100%;
   height: 46px;
   background-repeat: no-repeat;
@@ -8080,7 +8080,7 @@ Sticky Menu
   .trusted_content_img li:nth-child(12):hover {
     transform: translateY(0px);
   }
-  .newslatter_content .img_bg {
+  .newsletter_content .img_bg {
     left: -60px;
   }
 }
@@ -8178,11 +8178,11 @@ Sticky Menu
     margin-bottom: 30px;
   }
 
-  .newslatter_content .img_bg {
+  .newsletter_content .img_bg {
     display: none;
   }
 
-  .newslatter_content:after {
+  .newsletter_content:after {
     display: none;
   }
 
@@ -8323,7 +8323,7 @@ Sticky Menu
     background-size: 395px 465px;
   }
 
-  .newslatter_content .newslatter-form {
+  .newsletter_content .newsletter-form {
     padding-left: 0;
     margin: 0 15px;
   }
@@ -8395,29 +8395,29 @@ Sticky Menu
     padding: 25px 20px;
   }
 
-  .newslatter_content .newslatter_title {
+  .newsletter_content .newsletter_title {
     padding: 0px 15px 25px;
   }
 
-  .newslatter_content .newslatter_title h2 {
+  .newsletter_content .newsletter_title h2 {
     font-size: 25px;
     padding-bottom: 15px;
   }
 
-  .newslatter_content .newslatter-form .nws-button button {
+  .newsletter_content .newsletter-form .nws-button button {
     width: 90px;
     font-size: 14px;
   }
 
-  .newslatter_content .newslatter-form input {
+  .newsletter_content .newsletter-form input {
     padding: 0 15px;
   }
 
-  .newslatter_content .newslatter_title p {
+  .newsletter_content .newsletter_title p {
     font-size: 14px;
   }
 
-  .newslatter_content {
+  .newsletter_content {
     position: static;
     padding: 55px 0px 55px;
     margin-bottom: 50px;
@@ -9940,7 +9940,7 @@ Sticky Menu
   background-image: url(../img/saas-c/banner/fobg.png);
 }
 
-.saas_two_footer_section .s2-newslatter_section {
+.saas_two_footer_section .s2-newsletter_section {
   top: -90px;
   margin: 0 auto;
   max-width: 1170px;
@@ -9951,29 +9951,29 @@ Sticky Menu
   box-shadow: 0px 0px 16px 0px rgba(27, 2, 52, 0.34);
 }
 
-.saas_two_footer_section .s2-newslatter_section .s2-newslatter_title h2 {
+.saas_two_footer_section .s2-newsletter_section .s2-newsletter_title h2 {
   color: #fff;
   font-size: 36px;
   font-weight: 700;
   padding-bottom: 10px;
 }
 
-.saas_two_footer_section .s2-newslatter_section .s2-newslatter_title p {
+.saas_two_footer_section .s2-newsletter_section .s2-newsletter_title p {
   font-family: "Poppins";
   color: #fff;
 }
 
-.saas_two_footer_section .s2-newslatter_section .s2-newslatter-form {
+.saas_two_footer_section .s2-newsletter_section .s2-newsletter-form {
   max-width: 660px;
   margin: 30px auto 0;
 }
 
-.saas_two_footer_section .s2-newslatter_section .s2-newslatter-form .nws-button {
+.saas_two_footer_section .s2-newsletter_section .s2-newsletter-form .nws-button {
   top: 0;
   right: 0;
 }
 
-.saas_two_footer_section .s2-newslatter_section .s2-newslatter-form input {
+.saas_two_footer_section .s2-newsletter_section .s2-newsletter-form input {
   height: 62px;
   width: 100%;
   border: none;
@@ -9982,7 +9982,7 @@ Sticky Menu
   border-radius: 5px;
 }
 
-.saas_two_footer_section .s2-newslatter_section .s2-newslatter-form button {
+.saas_two_footer_section .s2-newsletter_section .s2-newsletter-form button {
   border: none;
   height: 62px;
   width: 155px;
@@ -9994,7 +9994,7 @@ Sticky Menu
   right: 0;
 }
 
-.saas_two_footer_section .s2-newslatter_section .newsletter_pattern_1 {
+.saas_two_footer_section .s2-newsletter_section .newsletter_pattern_1 {
   top: -25px;
   left: 80px;
   z-index: 1;
@@ -10399,7 +10399,7 @@ Sticky Menu
 /* Responsive area*/
 /*----------------------------------------------------*/
 @media screen and (max-width: 1140px) {
-  .saas_two_footer_section .s2-newslatter_section {
+  .saas_two_footer_section .s2-newsletter_section {
     top: 0;
     max-width: inherit;
     margin-bottom: 50px;
@@ -10491,7 +10491,7 @@ Sticky Menu
     top: 60px;
   }
 
-  .saas_two_footer_section .s2-newslatter_section .newsletter_pattern_1 {
+  .saas_two_footer_section .s2-newsletter_section .newsletter_pattern_1 {
     display: none;
   }
 
@@ -10707,7 +10707,7 @@ Sticky Menu
     padding-bottom: 30px;
   }
 
-  .saas_two_footer_section .s2-newslatter_section .s2-newslatter-form button {
+  .saas_two_footer_section .s2-newsletter_section .s2-newsletter-form button {
     width: 100px;
   }
 
@@ -12294,12 +12294,12 @@ Sticky Menu
 /*---------------------------------------------------- */
 /*abiut area*/
 /*----------------------------------------------------*/
-.str-newslatter-content {
+.str-newsletter-content {
   z-index: 1;
   padding: 55px 0px;
 }
 
-.str-newslatter-content:before {
+.str-newsletter-content:before {
   top: 0;
   left: 0;
   z-index: -1;
@@ -12311,20 +12311,20 @@ Sticky Menu
   background-color: #b8c7e3;
 }
 
-.str-newslatter-content .str-mail-icon {
+.str-newsletter-content .str-mail-icon {
   top: 55%;
   left: 30px;
   transform: translateY(-50%);
 }
 
-.str-newslatter-content .str-newslatter-text h2 {
+.str-newsletter-content .str-newsletter-text h2 {
   color: #010101;
   font-size: 36px;
   font-weight: 700;
   padding-bottom: 15px;
 }
 
-.str-newslatter-content .str-newslatter-text p {
+.str-newsletter-content .str-newsletter-text p {
   color: #010101;
   margin: 0 auto;
   font-size: 18px;
@@ -12332,12 +12332,12 @@ Sticky Menu
   padding-bottom: 25px;
 }
 
-.str-newslatter-content .str-newslatter-form {
+.str-newsletter-content .str-newsletter-form {
   margin: 0 auto;
   max-width: 660px;
 }
 
-.str-newslatter-content .str-newslatter-form input {
+.str-newsletter-content .str-newsletter-form input {
   width: 100%;
   height: 60px;
   border: none;
@@ -12347,13 +12347,13 @@ Sticky Menu
   box-shadow: 0px 6px 40px 0px rgba(5, 41, 140, 0.25);
 }
 
-.str-newslatter-content .str-newslatter-form .nws-button {
+.str-newsletter-content .str-newsletter-form .nws-button {
   top: 0;
   right: 0;
   position: absolute;
 }
 
-.str-newslatter-content .str-newslatter-form .nws-button button {
+.str-newsletter-content .str-newsletter-form .nws-button button {
   color: #fff;
   width: 150px;
   height: 60px;
@@ -12367,7 +12367,7 @@ Sticky Menu
   transition: 0.3s all ease-in-out;
 }
 
-.str-newslatter-content .str-newslatter-form .nws-button button:hover {
+.str-newsletter-content .str-newsletter-form .nws-button button:hover {
   background-position: right center;
   transition: 0.3s all ease-in-out;
 }
@@ -12825,16 +12825,16 @@ Sticky Menu
   padding-bottom: 25px;
 }
 
-.str-footer-area .footer-content .str-footer-widget .str-newslatter-widget p {
+.str-footer-area .footer-content .str-footer-widget .str-newsletter-widget p {
   font-size: 15px;
 }
 
-.str-footer-area .footer-content .str-footer-widget .str-newslatter-widget form {
+.str-footer-area .footer-content .str-footer-widget .str-newsletter-widget form {
   position: relative;
   margin-top: 25px;
 }
 
-.str-footer-area .footer-content .str-footer-widget .str-newslatter-widget input {
+.str-footer-area .footer-content .str-footer-widget .str-newsletter-widget input {
   width: 100%;
   border: none;
   height: 45px;
@@ -12842,7 +12842,7 @@ Sticky Menu
   background-color: #eeeeee;
 }
 
-.str-footer-area .footer-content .str-footer-widget .str-newslatter-widget button {
+.str-footer-area .footer-content .str-footer-widget .str-newsletter-widget button {
   top: 0;
   right: 0;
   width: 60px;
@@ -12854,31 +12854,31 @@ Sticky Menu
   transition: 0.3s all ease-in-out;
 }
 
-.str-footer-area .footer-content .str-footer-widget .str-newslatter-widget button:hover {
+.str-footer-area .footer-content .str-footer-widget .str-newsletter-widget button:hover {
   background-color: #6e24c8;
 }
 
-.str-footer-area .footer-content .str-footer-widget .str-newslatter-widget .str-social-footer {
+.str-footer-area .footer-content .str-footer-widget .str-newsletter-widget .str-social-footer {
   margin-top: 20px;
 }
 
-.str-footer-area .footer-content .str-footer-widget .str-newslatter-widget .str-social-footer a {
+.str-footer-area .footer-content .str-footer-widget .str-newsletter-widget .str-social-footer a {
   margin-right: 18px;
 }
 
-.str-footer-area .footer-content .str-footer-widget .str-newslatter-widget .str-social-footer a:nth-child(1) {
+.str-footer-area .footer-content .str-footer-widget .str-newsletter-widget .str-social-footer a:nth-child(1) {
   color: #16599b;
 }
 
-.str-footer-area .footer-content .str-footer-widget .str-newslatter-widget .str-social-footer a:nth-child(2) {
+.str-footer-area .footer-content .str-footer-widget .str-newsletter-widget .str-social-footer a:nth-child(2) {
   color: #03a9f4;
 }
 
-.str-footer-area .footer-content .str-footer-widget .str-newslatter-widget .str-social-footer a:nth-child(3) {
+.str-footer-area .footer-content .str-footer-widget .str-newsletter-widget .str-social-footer a:nth-child(3) {
   color: #ed679b;
 }
 
-.str-footer-area .footer-content .str-footer-widget .str-newslatter-widget .str-social-footer a:nth-child(4) {
+.str-footer-area .footer-content .str-footer-widget .str-newsletter-widget .str-social-footer a:nth-child(4) {
   color: #87b7ff;
 }
 
@@ -13256,7 +13256,7 @@ Sticky Menu
     justify-content: center;
   }
 
-  .str-newslatter-content {
+  .str-newsletter-content {
     padding: 40px 30px;
   }
 
@@ -13342,21 +13342,21 @@ Sticky Menu
     display: none;
   }
 
-  .str-newslatter-content .str-newslatter-text h2 {
+  .str-newsletter-content .str-newsletter-text h2 {
     font-size: 30px;
   }
 
-  .str-newslatter-content .str-newslatter-text p {
+  .str-newsletter-content .str-newsletter-text p {
     font-size: 16px;
   }
 
-  .str-newslatter-content .str-newslatter-form .nws-button {
+  .str-newsletter-content .str-newsletter-form .nws-button {
     position: static;
     margin-top: 30px;
     text-align: center;
   }
 
-  .str-newslatter-content .str-mail-icon {
+  .str-newsletter-content .str-mail-icon {
     display: none;
   }
 }
@@ -13373,7 +13373,7 @@ Sticky Menu
     font-size: 20px;
   }
 
-  .str-newslatter-content .str-newslatter-text h2 {
+  .str-newsletter-content .str-newsletter-text h2 {
     font-size: 26px;
   }
 }
@@ -13392,7 +13392,7 @@ Sticky Menu
 .dia-service-section .dia-service-btn .dia-service-more,
 .dia-exp-section .dio-exp-text-area .dia-exp-btn,
 .dia-port-more a,
-.dia-newslatter-section .dia-newslatter-content .dia-newslatter-form .nws-button button {
+.dia-newsletter-section .dia-newsletter-content .dia-newsletter-form .nws-button button {
   z-index: 1;
   overflow: hidden;
   position: relative;
@@ -13402,7 +13402,7 @@ Sticky Menu
 .dia-service-section .dia-service-btn .dia-service-more:before,
 .dia-exp-section .dio-exp-text-area .dia-exp-btn:before,
 .dia-port-more a:before,
-.dia-newslatter-section .dia-newslatter-content .dia-newslatter-form .nws-button button:before {
+.dia-newsletter-section .dia-newsletter-content .dia-newsletter-form .nws-button button:before {
   left: 0;
   width: 100%;
   content: "";
@@ -13417,7 +13417,7 @@ Sticky Menu
 .dia-service-section .dia-service-btn .dia-service-more:hover:before,
 .dia-exp-section .dio-exp-text-area .dia-exp-btn:hover:before,
 .dia-port-more a:hover:before,
-.dia-newslatter-section .dia-newslatter-content .dia-newslatter-form .nws-button button:hover:before {
+.dia-newsletter-section .dia-newsletter-content .dia-newsletter-form .nws-button button:hover:before {
   bottom: 0;
 }
 @keyframes borderpls {
@@ -14982,71 +14982,71 @@ div#preloader {
 }
 
 /*---------------------------------------------------- */
-/*Newslatter area*/
+/*Newsletter area*/
 /*----------------------------------------------------*/
-.dia-newslatter-section {
+.dia-newsletter-section {
   z-index: 1;
   padding: 65px 0px 80px;
   background-color: #f6ebe6;
 }
 
-.dia-newslatter-section .newslatter-shape {
+.dia-newsletter-section .newsletter-shape {
   z-index: -1;
 }
 
-.dia-newslatter-section .n-shape1 {
+.dia-newsletter-section .n-shape1 {
   top: 0;
   left: 0;
 }
 
-.dia-newslatter-section .n-shape4 {
+.dia-newsletter-section .n-shape4 {
   left: 10%;
   bottom: 30px;
 }
 
-.dia-newslatter-section .n-shape5 {
+.dia-newsletter-section .n-shape5 {
   top: 50%;
   right: 12%;
 }
 
-.dia-newslatter-section .n-shape2 {
+.dia-newsletter-section .n-shape2 {
   top: 10px;
   left: 14%;
 }
 
-.dia-newslatter-section .n-shape3 {
+.dia-newsletter-section .n-shape3 {
   top: 45px;
   right: 13%;
 }
 
-.dia-newslatter-section .n-shape6 {
+.dia-newsletter-section .n-shape6 {
   right: 30px;
   bottom: -80px;
 }
 
-.dia-newslatter-section .dia-newslatter-content {
+.dia-newsletter-section .dia-newsletter-content {
   border-radius: 30px;
   background-color: #fff;
   padding: 55px 55px 65px 75px;
 }
 
-.dia-newslatter-section .dia-newslatter-content .dia-newslatter-text h3 {
+.dia-newsletter-section .dia-newsletter-content .dia-newsletter-text h3 {
   color: #282350;
   font-size: 30px;
   font-weight: 700;
   padding-bottom: 12px;
 }
 
-.dia-newslatter-section .dia-newslatter-content .dia-newslatter-text p {
+.dia-newsletter-section .dia-newsletter-content .dia-newsletter-text p {
   font-size: 17px;
 }
 
-.dia-newslatter-section .dia-newslatter-content .dia-newslatter-form {
+.dia-newsletter-section .dia-newsletter-content .dia-newsletter-form {
   margin-top: 10px;
   padding-left: 25px;
 }
 
-.dia-newslatter-section .dia-newslatter-content .dia-newslatter-form input {
+.dia-newsletter-section .dia-newsletter-content .dia-newsletter-form input {
   width: 100%;
   border: none;
   height: 50px;
@@ -15056,13 +15056,13 @@ div#preloader {
   background-color: #ebeff3;
 }
 
-.dia-newslatter-section .dia-newslatter-content .dia-newslatter-form .nws-button {
+.dia-newsletter-section .dia-newsletter-content .dia-newsletter-form .nws-button {
   top: 0;
   right: 0;
   position: absolute;
 }
 
-.dia-newslatter-section .dia-newslatter-content .dia-newslatter-form .nws-button button {
+.dia-newsletter-section .dia-newsletter-content .dia-newsletter-form .nws-button button {
   color: #fff;
   height: 50px;
   width: 140px;
@@ -15073,15 +15073,15 @@ div#preloader {
   background-image: linear-gradient(-100deg, #ff6600 0%, #ff9903 75%, #ffcb05 100%);
 }
 
-.dia-newslatter-section .dia-newslatter-content .dia-newslatter-form .nws-button button:before {
+.dia-newsletter-section .dia-newsletter-content .dia-newsletter-form .nws-button button:before {
   background-color: #390ed2;
 }
 
-.dia-newslatter-section .dia-newslatter-content .dia-newslatter-form .dia-newslatter-checkbox {
+.dia-newsletter-section .dia-newsletter-content .dia-newsletter-form .dia-newsletter-checkbox {
   margin-top: 15px;
 }
 
-.dia-newslatter-section .dia-newslatter-content .dia-newslatter-form .dia-newslatter-checkbox input {
+.dia-newsletter-section .dia-newsletter-content .dia-newsletter-form .dia-newsletter-checkbox input {
   height: inherit;
   width: inherit;
   padding-left: 0;
@@ -15089,7 +15089,7 @@ div#preloader {
   max-width: inherit;
 }
 
-.dia-newslatter-section .dia-newslatter-content .dia-newslatter-form .dia-newslatter-checkbox label {
+.dia-newsletter-section .dia-newsletter-content .dia-newsletter-form .dia-newsletter-checkbox label {
   font-size: 14px;
   margin-bottom: 0;
 }
@@ -15321,7 +15321,7 @@ div#preloader {
     left: 20px;
   }
 
-  .dia-newslatter-section .n-shape4 {
+  .dia-newsletter-section .n-shape4 {
     left: 10px;
   }
 
@@ -15477,12 +15477,12 @@ div#preloader {
     margin-bottom: 40px;
   }
 
-  .dia-newslatter-section .dia-newslatter-content .dia-newslatter-form {
+  .dia-newsletter-section .dia-newsletter-content .dia-newsletter-form {
     padding-left: 0;
     margin-top: 20px;
   }
 
-  .dia-newslatter-section .dia-newslatter-content .dia-newslatter-form input {
+  .dia-newsletter-section .dia-newsletter-content .dia-newsletter-form input {
     max-width: 100%;
   }
 
@@ -15647,11 +15647,11 @@ div#preloader {
     padding-bottom: 20px;
   }
 
-  .dia-newslatter-section .dia-newslatter-content .dia-newslatter-text h3 {
+  .dia-newsletter-section .dia-newsletter-content .dia-newsletter-text h3 {
     font-size: 28px;
   }
 
-  .dia-newslatter-section .dia-newslatter-content {
+  .dia-newsletter-section .dia-newsletter-content {
     padding: 45px 25px 45px 25px;
   }
 
@@ -15728,15 +15728,15 @@ div#preloader {
     font-size: 26px;
   }
 
-  .dia-newslatter-section .dia-newslatter-content .dia-newslatter-form .nws-button button {
+  .dia-newsletter-section .dia-newsletter-content .dia-newsletter-form .nws-button button {
     width: 100px;
   }
 
-  .dia-newslatter-section .dia-newslatter-content .dia-newslatter-form input {
+  .dia-newsletter-section .dia-newsletter-content .dia-newsletter-form input {
     padding-left: 10px;
   }
 
-  .dia-newslatter-section .dia-newslatter-content .dia-newslatter-form input::placeholder {
+  .dia-newsletter-section .dia-newsletter-content .dia-newsletter-form input::placeholder {
     font-size: 14px;
   }
 
@@ -15766,7 +15766,7 @@ div#preloader {
     left: 35px;
   }
 
-  .dia-newslatter-section .dia-newslatter-content .dia-newslatter-form .dia-newslatter-checkbox label {
+  .dia-newsletter-section .dia-newsletter-content .dia-newsletter-form .dia-newsletter-checkbox label {
     font-size: 12px;
   }
 }
@@ -17695,3 +17695,4 @@ SaaSio - HR Management
 .sa-contact-inner-btn {
   width: 100%;
 }
+
