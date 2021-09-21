@@ -242,7 +242,7 @@ Author:
 				$('#scrollup').on("click", function()  {
 					$("html, body").animate({
 						scrollTop: 0
-					}, 800);
+					}, 200);
 					return false;
 				});				
 			},
