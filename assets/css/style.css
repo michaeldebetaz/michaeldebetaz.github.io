@@ -541,7 +541,7 @@ div#preloader {
 }
 
 .dia-main-header .dia-main-navigation li {
-  margin: 0px 32px;
+  margin: 0px 1.75rem;
 }
 
 .dia-main-header .dia-main-navigation li a {
@@ -2223,7 +2223,7 @@ div#preloader {
 
   .dia-banner-section .banner-side-img.banner-img1.view-on,
   .dia-banner-section .banner-side-img.banner-img2.view-on {
-    right: -400px;
+    right: -500px;
   }
 
   .dia-banner-section .banner-shape2 {
@@ -2351,16 +2351,6 @@ div#preloader {
 
   .dia-banner-section .dia-banner-content {
     padding: 150px 0px 0px;
-  }
-
-  .dia-testimonial_indicator-dot .carousel-indicators2 {
-    position: static;
-    text-align: center;
-  }
-
-  .dia-testimonial_indicator-dot .carousel-indicators2 li {
-    display: inline-block;
-    background-color: #390ed2;
   }
 
   .dia-blog-img-text {

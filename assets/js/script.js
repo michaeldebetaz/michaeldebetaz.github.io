@@ -88,24 +88,6 @@ Author:
             jQuery(".dia-main-header").removeClass("dia-sticky-menu");
           }
         });
-        $(".dia-main-navigation ul li a").on("click", function () {
-          if (
-            location.pathname.replace(/^\//, "") ==
-              this.pathname.replace(/^\//, "") &&
-            location.hostname == this.hostname
-          ) {
-            var target = $(this.hash);
-            if (target.length) {
-              $("html, body").animate(
-                {
-                  scrollTop: target.offset().top - 0,
-                },
-                200
-              );
-              return false;
-            }
-          }
-        });
       },
       DiaSkillProgress: function () {
         if ($(".progress-bar").length) {
