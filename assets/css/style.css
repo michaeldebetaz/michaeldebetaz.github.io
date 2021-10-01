@@ -439,7 +439,6 @@ div#preloader {
   font-size: var(--fs--logo);
   font-weight: 900;
   letter-spacing: calc(0.1 * var(--fs--logo));
-  margin-top: 0.25rem;
   color: #e3e3e3;
 }
 
