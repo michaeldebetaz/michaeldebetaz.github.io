@@ -1,0 +1,89 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:100,500,300,400,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+/* #region Initialization */
+
+*,
+::after,
+::before {
+  box-sizing: border-box;
+}
+
+:root {
+  --clr-text-primary: white;
+  --clr-background: #050017;
+  --clr-accent: #ff6700;
+  --ff-primary: "Roboto", sans-serif;
+  --ff-secondary: "Poppins", sans-serif;
+}
+
+/* #endregion */
+
+/* #region Layout */
+
+body {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0;
+  font-family: var(--ff-primary);
+  color: var(--clr-background);
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  color: currentColor;
+  text-decoration: none;
+}
+
+a:hover,
+a:focus {
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+button {
+  cursor: pointer;
+}
+
+/* #endregion */
+
+/* #region Navbar */
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  margin: 1.5rem 0;
+  padding: 0 1rem;
+  font-family: var(--ff-secondary);
+  font-weight: 700;
+}
+
+.navbar-nav {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+/* #endregion */
+
+/* #region Dark theme */
+
+body.dark {
+  color: var(--clr-text-primary);
+  background-color: var(--clr-background);
+}
+
+.dark h1 {
+  color: var(--clr-text-primary);
+}
+
+/* #endregion */
