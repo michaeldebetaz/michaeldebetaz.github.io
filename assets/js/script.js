@@ -16,13 +16,10 @@ Author:
     Basic: {
       init: function () {
         this.Saasiopreloader();
-        this.BackgroundImage();
-        this.SaaSioOnePageNav();
         this.counterUp();
         this.EiscrollTop();
         this.DiaHeader();
         this.DiaSkillProgress();
-        this.DiaMobileMenu();
         this.DiaPortSlider();
         this.DiaTeamSlide();
         this.DiaTestimonial();
@@ -37,15 +34,6 @@ Author:
           });
         });
       },
-      BackgroundImage: function () {
-        $("[data-background]").each(function () {
-          $(this).css(
-            "background-image",
-            "url(" + $(this).attr("data-background") + ")"
-          );
-        });
-      },
-      SaaSioOnePageNav: function () {},
       EiscrollTop: function () {
         $(window).on("scroll", function () {
           if ($(this).scrollTop() > 200) {
@@ -83,9 +71,9 @@ Author:
       DiaHeader: function () {
         jQuery(window).on("scroll", function () {
           if (jQuery(window).scrollTop() > 100) {
-            jQuery(".dia-main-header").addClass("dia-sticky-menu");
+            jQuery(".main-header").addClass("sticky-menu");
           } else {
-            jQuery(".dia-main-header").removeClass("dia-sticky-menu");
+            jQuery(".main-header").removeClass("sticky-menu");
           }
         });
       },
@@ -106,27 +94,8 @@ Author:
           });
         }
       },
-      DiaMobileMenu: function () {
-        $(".dia-open_mobile_menu").on("click", function () {
-          $(".dia-mobile_menu_wrap").toggleClass("mobile_menu_on");
-        });
-        $(".dia-open_mobile_menu").on("click", function () {
-          $("body").toggleClass("mobile_menu_overlay_on");
-        });
-        if ($(".dia-mobile_menu li.dropdown ul").length) {
-          $(".dia-mobile_menu li.dropdown").append(
-            '<div class="dropdown-btn"><span class="fa fa-angle-down"></span></div>'
-          );
-          $(".dia-mobile_menu li.dropdown .dropdown-btn").on(
-            "click",
-            function () {
-              $(this).prev("ul").slideToggle(500);
-            }
-          );
-        }
-      },
       DiaPortSlider: function () {
-        $("#dia-portfolio-slider").owlCarousel({
+        $("#portfolio-slider").owlCarousel({
           margin: 20,
           responsiveClass: true,
           nav: true,
@@ -164,7 +133,7 @@ Author:
         });
       },
       DiaTeamSlide: function () {
-        $("#dia-team-slide").owlCarousel({
+        $("#team-slide").owlCarousel({
           margin: 0,
           responsiveClass: true,
           nav: true,
