@@ -150,8 +150,8 @@ h6 {
   width: max-content;
   top: 0;
   font-weight: 900;
-  --typewriter-duration: 2.5s;
-  --typerwriter-animation: typewriter var(--typewriter-duration) steps(14)
+  --typewriter-duration: 3s;
+  --typerwriter-animation: typewriter var(--typewriter-duration) ease-in-out
     infinite;
   animation: slide calc(var(--typewriter-duration) * 3) steps(3) infinite;
 }
@@ -180,14 +180,14 @@ h6 {
   right: 0;
   bottom: 0;
   left: 0;
-  width: 0.125rem;
+  width: 0.1rem;
   background: var(--clr-text-primary);
   animation: var(--typerwriter-animation);
 }
 
 @keyframes typewriter {
-  30%,
-  60% {
+  20%,
+  80% {
     left: 100%;
   }
 
