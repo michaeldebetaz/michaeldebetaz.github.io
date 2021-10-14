@@ -123,28 +123,77 @@ h6 {
   z-index: -1;
 }
 
-.banner__images {
-  transform: translateY(-10px);
-}
-
 .banner__image {
   position: absolute;
-  right: min(-35%, -250px);
-}
-
-.banner__image--front {
-  transform: translateX(50px);
+  right: 0;
+  padding-left: min(35%, 60vh);
 }
 
 .banner__headline {
   max-width: var(--body-max-width);
   margin: 0 auto;
-  padding: 10rem var(--body-padding-x);
+  padding: 12.5rem var(--body-padding-x);
 }
 
 .banner__headline-title {
   max-width: calc(0.4 * var(--body-max-width));
   font-size: 2.5rem;
+}
+
+.banner__headline-typer {
+  height: 3.5rem;
+  overflow: hidden;
+}
+
+.banner__headline-typer-word {
+  position: relative;
+  width: max-content;
+  top: 0;
+  font-weight: 900;
+  --typewriter-duration: 2.5s;
+  --typerwriter-animation: typewriter var(--typewriter-duration) steps(14)
+    infinite;
+  animation: slide calc(var(--typewriter-duration) * 3) steps(3) infinite;
+}
+
+@keyframes slide {
+  100% {
+    top: -11.5rem;
+  }
+}
+
+.banner__headline-typer-word::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: var(--clr-background);
+  animation: var(--typerwriter-animation);
+}
+
+.banner__headline-typer-word::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width: 0.125rem;
+  background: var(--clr-text-primary);
+  animation: var(--typerwriter-animation);
+}
+
+@keyframes typewriter {
+  30%,
+  60% {
+    left: 100%;
+  }
+
+  100% {
+    left: 0;
+  }
 }
 
 /* #endregion */
@@ -218,6 +267,10 @@ h6 {
   .navbar__menu-item-link:hover {
     text-decoration: none;
     background-color: rgba(255, 255, 255, 0.1);
+  }
+
+  .banner__image {
+    display: none;
   }
 }
 
