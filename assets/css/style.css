@@ -96,69 +96,58 @@ h6 {
 
 .banner {
   display: flex;
-  flex-direction: rows;
+  flex-direction: column;
   justify-content: space-between;
   margin-top: 8rem;
   width: 100%;
+  position: relative;
 }
 .banner__title {
-  font-size: 2.5rem;
-  max-width: 20rem;
+  --banner-title-fs: 3rem;
+  font-size: var(--banner-title-fs);
+  max-width: 15ch;
 }
 .banner__typer {
-  height: 3.5rem;
+  height: calc(1.5 * var(--banner-title-fs));
   overflow: hidden;
 }
-.banner__typer-word {
+.banner__typer-mask {
   position: relative;
-  width: max-content;
-  top: 0;
+  max-width: min-content;
+  overflow: hidden;
+  border-right: 1px solid var(--clr-text-primary);
+  --typer-duration: 3s;
+  --typer-animation: typer var(--typer-duration) ease-in-out infinite;
+  animation: var(--typer-animation), slide calc(var(--typer-duration) * 3) steps(3) infinite calc(-0.5 * var(--typer-duration));
+}
+.banner__typer-word {
   font-weight: 900;
-  --typewriter-duration: 3s;
-  --typerwriter-animation: typewriter var(--typewriter-duration) ease-in-out
-    infinite;
-  animation: slide calc(var(--typewriter-duration) * 3) steps(3) infinite;
 }
-.banner__typer-word::before {
-  content: "";
-  position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  background-color: var(--clr-background);
-  animation: var(--typerwriter-animation);
+@keyframes slide {
+  from {
+    top: 0;
+  }
+  to {
+    top: calc(-4.5 * var(--banner-title-fs));
+  }
 }
-.banner__typer-word::after {
-  content: "";
-  position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  width: 0.1rem;
-  background: var(--clr-text-primary);
-  animation: var(--typerwriter-animation);
+@keyframes typer {
+  0% {
+    width: 100%;
+  }
+  50% {
+    width: 0%;
+  }
+  100% {
+    width: 100%;
+  }
 }
 .banner__image {
-  height: 800px;
-  width: 800px;
-  margin-right: -10rem;
-  margin-top: 3rem;
-}
-
-@keyframes slide {
-  100% {
-    top: -11.5rem;
-  }
-}
-@keyframes typewriter {
-  20%, 80% {
-    left: 100%;
-  }
-  100% {
-    left: 0;
-  }
+  position: absolute;
+  right: -5rem;
+  height: 700px;
+  width: 700px;
+  z-index: -1;
 }
 @media (max-width: 800px) {
   .navbar__toggler {
@@ -217,8 +206,6 @@ h6 {
   }
 
   .banner__image {
-    /* display: none; */
-    transform: re;
     margin: 0;
   }
 }
