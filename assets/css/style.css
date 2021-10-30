@@ -160,6 +160,7 @@ h6 {
   font-size: 1.25rem;
   font-weight: 900;
   background-clip: text;
+  -webkit-background-clip: text;
   background-image: var(--gradient-accent-primary);
 }
 .banner .title__tag {
@@ -167,12 +168,16 @@ h6 {
   align-items: center;
   gap: 0.25rem;
 }
+.banner .title__tag .material-icons {
+  font-size: inherit;
+}
 .banner .title__typer {
   height: calc(1.5 * var(--banner-title-fs));
   overflow: hidden;
 }
 .banner .title__mask {
   position: relative;
+  height: calc(1.5 * var(--banner-title-fs));
   max-width: min-content;
   overflow: hidden;
   border-right: 1px solid var(--clr-text-primary);
@@ -251,7 +256,7 @@ h6 {
 }
 .banner .window__text {
   font-family: var(--ff-primary);
-  font-size: 1.125rem;
+  font-size: 1.25rem;
   font-weight: 500;
   line-height: 1.75rem;
 }
@@ -324,6 +329,9 @@ h6 {
   }
   .banner .title {
     --banner-title-fs: 2rem;
+  }
+  .banner .title__tags {
+    font-size: 0.85rem;
   }
   .banner .image {
     top: 25rem;
