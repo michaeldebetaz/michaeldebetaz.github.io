@@ -322,6 +322,9 @@ h6 {
   .banner {
     margin-top: 5rem;
   }
+  .banner .title {
+    --banner-title-fs: 2rem;
+  }
   .banner .image {
     top: 25rem;
     right: 5%;
