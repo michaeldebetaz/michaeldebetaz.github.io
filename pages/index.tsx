@@ -16,7 +16,7 @@ const Home: NextPage = () => {
         <h1 className="title">
           <div className="title__tags">
             <span className="title__tag">
-              <span className="material-icons">science</span>data science
+              <i className="material-icons">science</i>data science
             </span>
             <span className="title__tag">
               <span className="material-icons">code</span>webdev
