@@ -87,7 +87,31 @@
       var(--clr-background-lightness)
     );
 
-    --clr-accent-primary: hsl(24, 100%, 50%);
+    // Accent primary hsl(24, 100%, 50%)
+    --clr-accent-primary-hue: 24;
+    --clr-accent-primary-saturation: 100%;
+    --clr-accent-primary-lightness: 50%;
+    --clr-accent-primary: hsl(
+      var(--clr-accent-primary-hue),
+      var(--clr-accent-primary-saturation),
+      var(--clr-accent-primary-lightness)
+    );
+    --gradient-accent-primary: linear-gradient(
+      100deg,
+      var(--clr-accent-primary) 0%,
+      hsl(
+          calc(1.8 * var(--clr-accent-primary-hue)),
+          var(--clr-accent-primary-saturation),
+          var(--clr-accent-primary-lightness)
+        )
+        75%,
+      hsl(
+          calc(2 * var(--clr-accent-primary-hue)),
+          var(--clr-accent-primary-saturation),
+          var(--clr-accent-primary-lightness)
+        )
+        100%
+    );
     --clr-accent-secondary: #5409d6;
   }
 }
@@ -141,8 +165,16 @@ h6 {
 .nav {
   display: flex;
   justify-content: space-between;
+  align-items: center;
   font-family: var(--ff-secondary);
   font-weight: 700;
+
+  &__logo {
+    display: flex;
+    align-items: center;
+    max-width: 196px;
+    height: auto;
+  }
 
   &__toggler {
     display: none;
@@ -258,11 +290,7 @@ h6 {
     box-shadow: 0 1px 3px 0 black;
     border-radius: 0.375rem;
     overflow: hidden;
-    background-color: hsl(
-      var(--clr-background-hue),
-      calc(0.06 * var(--clr-background-saturation)),
-      calc(1.5 * var(--clr-background-lightness))
-    );
+    background-color: #131214;
 
     &__bar {
       display: flex;
@@ -271,11 +299,7 @@ h6 {
       height: 30px;
       width: 100%;
       padding: 1rem 0.5rem;
-      background-color: hsl(
-        var(--clr-background-hue),
-        calc(0.01 * var(--clr-background-saturation)),
-        calc(2.8 * var(--clr-background-lightness))
-      );
+      background-color: #242324;
     }
 
     &__button {
@@ -303,10 +327,11 @@ h6 {
     }
 
     &__text {
+      color: #dddddd;
       font-family: var(--ff-primary);
-      font-size: 1.25rem;
+      font-size: 1.875rem;
       font-weight: 500;
-      line-height: 1.75rem;
+      line-height: 3rem;
     }
 
     &__link {
@@ -324,7 +349,7 @@ h6 {
 
       &:hover {
         color: hsl(
-          calc(1.8 * var(--clr-accent-primary-hue)),
+          calc(2 * var(--clr-accent-primary-hue)),
           var(--clr-accent-primary-saturation),
           var(--clr-accent-primary-lightness)
         );
@@ -335,6 +360,10 @@ h6 {
 
 @media (max-width: 800px) {
   .nav {
+    &__logo {
+      width: 165px;
+    }
+
     &__toggler {
       display: grid;
       z-index: 10;
@@ -392,7 +421,7 @@ h6 {
     margin-top: 5rem;
 
     .title {
-      --banner-title-fs: 2rem;
+      --banner-title-fs: 2.1rem;
 
       &__tags {
         font-size: 0.85rem;
@@ -403,6 +432,13 @@ h6 {
       top: 25rem;
       right: 5%;
       width: 550px;
+    }
+
+    .window {
+      &__text {
+        font-size: 1.125rem;
+        line-height: 1.75rem;
+      }
     }
   }
 }
