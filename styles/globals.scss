@@ -191,7 +191,7 @@ h6 {
   }
 }
 
-.banner {
+.home {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -200,8 +200,8 @@ h6 {
   position: relative;
 
   .title {
-    --banner-title-fs: 3rem;
-    font-size: var(--banner-title-fs);
+    --home-title-fs: 3rem;
+    font-size: var(--home-title-fs);
     max-width: 12ch;
 
     &__tags {
@@ -227,13 +227,13 @@ h6 {
     }
 
     &__typer {
-      height: calc(1.5 * var(--banner-title-fs));
+      height: calc(1.5 * var(--home-title-fs));
       overflow: hidden;
     }
 
     &__mask {
       position: relative;
-      height: calc(1.5 * var(--banner-title-fs));
+      height: calc(1.5 * var(--home-title-fs));
       max-width: min-content;
       overflow: hidden;
       border-right: 1px solid var(--clr-text-primary);
@@ -264,7 +264,7 @@ h6 {
           top: 0;
         }
         to {
-          top: calc(-4.5 * var(--banner-title-fs));
+          top: calc(-4.5 * var(--home-title-fs));
         }
       }
     }
@@ -417,11 +417,11 @@ h6 {
     }
   }
 
-  .banner {
+  .home {
     margin-top: 5rem;
 
     .title {
-      --banner-title-fs: 2.1rem;
+      --home-title-fs: 2.1rem;
 
       &__tags {
         font-size: 0.85rem;

@@ -1,12 +1,15 @@
 import ManypixelsScience from "./svg/ManypixelsScience";
+import ScienceIcon from "@mui/icons-material/Science";
+import { LocalFireDepartment } from "@mui/icons-material";
 
 export default function Home() {
   return (
-    <section className="banner">
+    <section className="home">
       <h1 className="title">
         <div className="title__tags">
           <span className="title__tag">
-            <i className="material-icons">science</i>data science
+            <ScienceIcon />
+            data science
           </span>
           <span className="title__tag">
             <span className="material-icons">code</span>webdev
@@ -40,9 +43,7 @@ export default function Home() {
             🚀 Boostez vos projets grâce aux nouvelles technologies
           </h2>
           <a className="window__link">
-            <span className="window__icon material-icons">
-              local_fire_department
-            </span>
+            <LocalFireDepartment />
             Go !
           </a>
         </div>
