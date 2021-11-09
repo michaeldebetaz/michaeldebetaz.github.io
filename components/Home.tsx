@@ -1,6 +1,8 @@
 import ManypixelsScience from "./svg/ManypixelsScience";
 import ScienceIcon from "@mui/icons-material/Science";
-import { LocalFireDepartment } from "@mui/icons-material";
+import CodeIcon from "@mui/icons-material/Code";
+import InsightsIcon from "@mui/icons-material/Insights";
+import LocalFireDepartment from "@mui/icons-material/LocalFireDepartment";
 
 export default function Home() {
   return (
@@ -8,14 +10,13 @@ export default function Home() {
       <h1 className="title">
         <div className="title__tags">
           <span className="title__tag">
-            <ScienceIcon />
-            data science
+            <ScienceIcon /> data science
           </span>
           <span className="title__tag">
-            <span className="material-icons">code</span>webdev
+            <CodeIcon /> webdev
           </span>
           <span className="title__tag">
-            <span className="material-icons">insights</span>analytics
+            <InsightsIcon /> analytics
           </span>
         </div>
         Le numérique au service des
