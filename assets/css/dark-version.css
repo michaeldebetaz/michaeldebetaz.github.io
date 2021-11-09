@@ -48,10 +48,23 @@
 .dark-version .dia-main-header .dia-main-navigation {
 	background-color: rgba(5,0,23,0.73);
 }
+
+.dia-mobile_menu_content .dia-mobile-main-navigation .navbar-nav li:first-child {
+	border: none;
+}
+
+.dia-mobile_menu_content .dia-mobile-main-navigation .navbar-nav li {
+	border: none;
+}
+
+.dia-mobile_menu_content .dia-mobile-main-navigation .navbar-nav li a {
+	color: #fff;
+}
+
 .dark-version .dia-banner-section .banner-side-img {
 	z-index: 0
 }
-.dark-version .dia-sticky-menu {
+.dark-version .dia-sticky-menu, .dark-version .dia-mobile_menu_content {
 	background-color: #000;
 }
 .dark-version .dia-team-section .dia-team-pic-text .dia-team-img:after {

@@ -311,14 +311,22 @@ div#preloader {
 /*Header area*/
 /*----------------------------------------------------*/
 .dia-main-header {
+  display: flex;
+  align-items: center;
   z-index: 5;
   width: 100%;
   padding-top: 15px;
   position: absolute;
 }
 
+.dia-main-header-content {
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
+
 .dia-main-header .dia-logo {
-  margin-top: 15px;
+  margin-right: auto;
 }
 
 .dia-main-header .dropdown {
@@ -840,6 +848,8 @@ div#preloader {
 }
 
 .dia-service-section .dia-service-img {
+  display: flex;
+  justify-content: center;
   margin-top: 55px;
 }
 
