@@ -1,0 +1,78 @@
+@import "https://unpkg.com/open-props";
+@import "https://unpkg.com/open-props/normalize.min.css";
+@import url("https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;500;600;700&display=swap");
+
+:root {
+  color-scheme: dark;
+  --surface-1: #050117;
+  --surface-2: #050117;
+  --surface-3: #050117;
+  --surface-4: #050117;
+  --font-sans: "Fira Code", sans-serif;
+}
+
+body {
+  padding-inline: 1rem;
+  max-width: 512px;
+  margin: 1rem auto;
+}
+
+header .logo {
+  max-width: 170px;
+  margin-bottom: 3rem;
+}
+
+main section.banner aside {
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+  background-image: linear-gradient(
+    81deg,
+    #ff6600 0%,
+    #ff9903 75%,
+    #ffcb05 100%
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+main section.banner {
+  margin-bottom: 3rem;
+}
+
+main section.banner h1 {
+  max-width: 14ch;
+  font-size: var(--font-size-fluid-3);
+  line-height: var(--font-lineheight-0);
+  margin-bottom: 1rem;
+}
+
+main section.banner h2 {
+  font-size: var(--font-size-fluid-1);
+  font-weight: var(--font-weight-3);
+  line-height: var(--font-lineheight-2);
+  margin-bottom: 1rem;
+}
+
+main section.services h3 {
+  font-weight: 700;
+  font-size: var(--font-size-2);
+  margin-bottom: 1rem;
+  background-image: linear-gradient(
+    81deg,
+    #ff6600 0%,
+    #ff9903 75%,
+    #ffcb05 100%
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+main section.services h4 {
+  margin-bottom: 1rem;
+}
+
+main section.services p {
+  margin-bottom: 1rem;
+}
